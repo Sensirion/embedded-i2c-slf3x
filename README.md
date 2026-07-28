@@ -18,7 +18,9 @@ support it are listed in the API description.
 | Sensor name   | I²C Addresses  |
 | ------------- | -------------- |
 |[SLF3C-1300F](https://sensirion.com/products/catalog/SLF3C-1300F/)| **0x08**|
+|[SLF3S-1300D](https://sensirion.com/products/catalog/SLF3S-1300D/)| **0x08**|
 |[SLF3S-1300F](https://sensirion.com/products/catalog/SLF3S-1300F/)| **0x08**|
+|[SLF3S-0600D](https://sensirion.com/products/catalog/SLF3S-0600D/)| **0x08**|
 |[SLF3S-0600F](https://sensirion.com/products/catalog/SLF3S-0600F/)| **0x08**|
 |[SLF3S-4000B](https://sensirion.com/products/catalog/SLF3S-4000B/)| **0x08**|
 

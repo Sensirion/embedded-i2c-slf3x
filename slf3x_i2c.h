@@ -3,7 +3,7 @@
  *
  * Generator:     sensirion-driver-generator 1.8.0
  * Product:       slf3x
- * Model-Version: 2.0.0
+ * Model-Version: 2.0.1
  */
 /*
  * Copyright (c) 2026, Sensirion AG
@@ -45,7 +45,9 @@ extern "C" {
 
 #include "sensirion_config.h"
 #define SLF3C_1300F_I2C_ADDR_08 0x08
+#define SLF3S_1300D_I2C_ADDR_08 0x08
 #define SLF3S_1300F_I2C_ADDR_08 0x08
+#define SLF3S_0600D_I2C_ADDR_08 0x08
 #define SLF3S_0600F_I2C_ADDR_08 0x08
 #define SLF3S_4000B_I2C_ADDR_08 0x08
 
