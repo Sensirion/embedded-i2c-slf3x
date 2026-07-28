@@ -3,7 +3,7 @@
  *
  * Generator:     sensirion-driver-generator 1.8.0
  * Product:       slf3x
- * Model-Version: 2.0.0
+ * Model-Version: 2.0.1
  */
 /*
  * Copyright (c) 2026, Sensirion AG
@@ -77,7 +77,7 @@ int16_t slf3x_read_product_identifier(uint32_t* product_identifier,
     }
     *product_identifier = product_id;
     *serial_number =
-        ((uint64_t)(serial_number_high)*4294967296) + serial_number_low;
+        ((uint64_t)(serial_number_high) * 4294967296) + serial_number_low;
     return local_error;
 }
 
